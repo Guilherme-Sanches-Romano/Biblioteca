@@ -25,6 +25,9 @@ namespace Biblioteca
         private void btn_acessar_Click(object sender, EventArgs e)
         {
             this.lbl_aviso.Visible = true;
+           frm_MenuADM frm_MenuADM = new frm_MenuADM();
+            frm_MenuADM.ShowDialog();
+            Close();
         }
 
         private void lbl_senha_Click(object sender, EventArgs e)
@@ -44,7 +47,7 @@ namespace Biblioteca
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void frm_Usuario_Load(object sender, EventArgs e)

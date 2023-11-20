@@ -31,5 +31,10 @@ namespace Biblioteca
         {
 
         }
+
+        private void frm_PerfilCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

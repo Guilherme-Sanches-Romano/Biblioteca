@@ -41,6 +41,7 @@
             // 
             this.btn_VerExemplares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btn_VerExemplares.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_VerExemplares.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_VerExemplares.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_VerExemplares.Location = new System.Drawing.Point(283, 153);
             this.btn_VerExemplares.Name = "btn_VerExemplares";
@@ -54,8 +55,9 @@
             // 
             this.btn_VerClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btn_VerClientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_VerClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_VerClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_VerClientes.Location = new System.Drawing.Point(283, 357);
+            this.btn_VerClientes.Location = new System.Drawing.Point(283, 356);
             this.btn_VerClientes.Name = "btn_VerClientes";
             this.btn_VerClientes.Size = new System.Drawing.Size(303, 62);
             this.btn_VerClientes.TabIndex = 15;
@@ -79,15 +81,16 @@
             this.lbl_SubBibliSofi3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_SubBibliSofi3.Location = new System.Drawing.Point(12, 576);
             this.lbl_SubBibliSofi3.Name = "lbl_SubBibliSofi3";
-            this.lbl_SubBibliSofi3.Size = new System.Drawing.Size(173, 25);
+            this.lbl_SubBibliSofi3.Size = new System.Drawing.Size(135, 25);
             this.lbl_SubBibliSofi3.TabIndex = 17;
-            this.lbl_SubBibliSofi3.Text = "Biblioteca da Sofia";
+            this.lbl_SubBibliSofi3.Text = "Biblioteca IHC";
             this.lbl_SubBibliSofi3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // btn_Sair2
             // 
             this.btn_Sair2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btn_Sair2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Sair2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Sair2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sair2.Location = new System.Drawing.Point(685, 522);
             this.btn_Sair2.Name = "btn_Sair2";

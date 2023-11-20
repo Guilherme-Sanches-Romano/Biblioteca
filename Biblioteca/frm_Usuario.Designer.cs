@@ -48,19 +48,21 @@
             this.lbl_Titulo.AutoSize = true;
             this.lbl_Titulo.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Titulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.lbl_Titulo.Location = new System.Drawing.Point(238, 46);
+            this.lbl_Titulo.Location = new System.Drawing.Point(288, 46);
             this.lbl_Titulo.Name = "lbl_Titulo";
-            this.lbl_Titulo.Size = new System.Drawing.Size(459, 60);
+            this.lbl_Titulo.Size = new System.Drawing.Size(409, 60);
             this.lbl_Titulo.TabIndex = 0;
-            this.lbl_Titulo.Text = "Biblioteca Sofia";
+            this.lbl_Titulo.Text = "Biblioteca IHC";
             this.lbl_Titulo.Click += new System.EventHandler(this.Titulo_Click);
             // 
             // btn_acessar
             // 
             this.btn_acessar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btn_acessar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_acessar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_acessar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_acessar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_acessar.Location = new System.Drawing.Point(197, 358);
+            this.btn_acessar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_acessar.Location = new System.Drawing.Point(389, 417);
             this.btn_acessar.Name = "btn_acessar";
             this.btn_acessar.Size = new System.Drawing.Size(200, 62);
             this.btn_acessar.TabIndex = 1;
@@ -73,7 +75,7 @@
             this.lbl_aviso.AutoSize = true;
             this.lbl_aviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_aviso.ForeColor = System.Drawing.Color.Red;
-            this.lbl_aviso.Location = new System.Drawing.Point(369, 307);
+            this.lbl_aviso.Location = new System.Drawing.Point(385, 306);
             this.lbl_aviso.Name = "lbl_aviso";
             this.lbl_aviso.Size = new System.Drawing.Size(235, 20);
             this.lbl_aviso.TabIndex = 2;
@@ -96,7 +98,7 @@
             // 
             this.lbl_senha.AutoSize = true;
             this.lbl_senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_senha.Location = new System.Drawing.Point(192, 248);
+            this.lbl_senha.Location = new System.Drawing.Point(206, 248);
             this.lbl_senha.Name = "lbl_senha";
             this.lbl_senha.Size = new System.Drawing.Size(94, 29);
             this.lbl_senha.TabIndex = 4;

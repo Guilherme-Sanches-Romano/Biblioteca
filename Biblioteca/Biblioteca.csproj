@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="frm_EditarExemplares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EditarExemplares.Designer.cs">
+      <DependentUpon>frm_EditarExemplares.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Alura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +64,12 @@
     </Compile>
     <Compile Include="frm_ConsultarSolicitacao.Designer.cs">
       <DependentUpon>frm_ConsultarSolicitacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EditarPefilClietne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EditarPefilClietne.Designer.cs">
+      <DependentUpon>frm_EditarPefilClietne.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_ManterClientes.cs">
       <SubType>Form</SubType>
@@ -102,6 +115,12 @@
     <EmbeddedResource Include="frm_ConsultarSolicitacao.resx">
       <DependentUpon>frm_ConsultarSolicitacao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_EditarExemplares.resx">
+      <DependentUpon>frm_EditarExemplares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EditarPefilClietne.resx">
+      <DependentUpon>frm_EditarPefilClietne.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_ManterClientes.resx">
       <DependentUpon>frm_ManterClientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +164,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\coruja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagemperfil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anexo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

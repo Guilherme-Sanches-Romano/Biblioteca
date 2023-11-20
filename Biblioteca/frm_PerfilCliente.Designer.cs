@@ -221,6 +221,7 @@
             this.Controls.Add(this.lbl_Nome);
             this.Name = "frm_PerfilCliente";
             this.Text = "frm_PerfilCliente";
+            this.Load += new System.EventHandler(this.frm_PerfilCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

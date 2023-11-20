@@ -29,12 +29,13 @@ namespace Biblioteca
 
         private void btn_ConsultarEm_Click(object sender, EventArgs e)
         {
-
+            lv_exemplares.Items.RemoveAt(lv_exemplares.SelectedIndices[0]); 
         }
 
         private void btn_SolicitarEm_Click(object sender, EventArgs e)
         {
-
+            frm_EditarExemplares frm_EditarExemplares = new frm_EditarExemplares(this);
+            frm_EditarExemplares.ShowDialog();
         }
 
         private void btn_Sair1_Click(object sender, EventArgs e)

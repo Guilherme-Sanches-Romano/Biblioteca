@@ -26,5 +26,27 @@ namespace Biblioteca
         {
 
         }
+
+        private void lbl_SubBibliSofi1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_CriarCliente_Click(object sender, EventArgs e)
+        {
+            frm_EditarPefilClietne frm_EditarPefilClietne = new frm_EditarPefilClietne(this);
+            frm_EditarPefilClietne.ShowDialog();
+
+        }
+
+        private void lv_clientes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_ExcluirCliente_Click(object sender, EventArgs e)
+        {
+            lv_clientes.Items.RemoveAt(lv_clientes.SelectedIndices[0]);
+        }
     }
 }

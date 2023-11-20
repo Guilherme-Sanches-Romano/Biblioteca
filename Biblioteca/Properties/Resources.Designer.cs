@@ -63,9 +63,29 @@ namespace Biblioteca.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap anexo {
+            get {
+                object obj = ResourceManager.GetObject("anexo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coruja {
             get {
                 object obj = ResourceManager.GetObject("coruja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagemperfil {
+            get {
+                object obj = ResourceManager.GetObject("imagemperfil", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
