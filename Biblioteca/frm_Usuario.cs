@@ -24,10 +24,22 @@ namespace Biblioteca
 
         private void btn_acessar_Click(object sender, EventArgs e)
         {
-            this.lbl_aviso.Visible = true;
-           frm_MenuADM frm_MenuADM = new frm_MenuADM();
-            frm_MenuADM.ShowDialog();
-            Close();
+            if (txtb_usuario.Text == "adm" && txtb_senha.Text == "senha")
+            {
+                frm_MenuADM frm_MenuADM = new frm_MenuADM();
+                frm_MenuADM.ShowDialog();
+                Close();
+            }
+           else if(txtb_usuario.Text == "usuario" && txtb_senha.Text == "senha")
+            {
+                frm_MostrarTitulo frm_MostrarTitulo = new frm_MostrarTitulo();
+                frm_MostrarTitulo.ShowDialog();
+                Close();
+            }
+            else
+            {
+                this.lbl_aviso.Visible = true;
+            }
         }
 
         private void lbl_senha_Click(object sender, EventArgs e)

@@ -119,6 +119,7 @@
             this.txtb_senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtb_senha.Location = new System.Drawing.Point(313, 248);
             this.txtb_senha.Name = "txtb_senha";
+            this.txtb_senha.PasswordChar = '*';
             this.txtb_senha.Size = new System.Drawing.Size(384, 33);
             this.txtb_senha.TabIndex = 6;
             this.txtb_senha.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
