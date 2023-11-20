@@ -48,5 +48,10 @@ namespace Biblioteca
         {
             lv_clientes.Items.RemoveAt(lv_clientes.SelectedIndices[0]);
         }
+
+        private void btn_Sair1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

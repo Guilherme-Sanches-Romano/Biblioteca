@@ -28,5 +28,10 @@ namespace Biblioteca
             frm_ManterClientes f = new frm_ManterClientes();
             f.ShowDialog();
         }
+
+        private void btn_Sair2_Click(object sender, EventArgs e)
+        {
+          this.Close();
+        }
     }
 }

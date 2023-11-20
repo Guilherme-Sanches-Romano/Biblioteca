@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "01",
             "Pequeno Principe",
             "Grupo Companhia das Letras",
@@ -65,7 +65,7 @@
             this.btn_Sair1.Name = "btn_Sair1";
             this.btn_Sair1.Size = new System.Drawing.Size(109, 62);
             this.btn_Sair1.TabIndex = 17;
-            this.btn_Sair1.Text = "Sair";
+            this.btn_Sair1.Text = "Voltar";
             this.btn_Sair1.UseVisualStyleBackColor = false;
             this.btn_Sair1.Click += new System.EventHandler(this.btn_Sair1_Click);
             // 
@@ -132,9 +132,10 @@
             this.col_datapublicacao,
             this.col_genero});
             this.lv_exemplares.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lv_exemplares.FullRowSelect = true;
             this.lv_exemplares.HideSelection = false;
             this.lv_exemplares.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.lv_exemplares.Location = new System.Drawing.Point(12, 56);
             this.lv_exemplares.MultiSelect = false;
             this.lv_exemplares.Name = "lv_exemplares";

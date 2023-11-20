@@ -40,7 +40,9 @@ namespace Biblioteca
 
         private void btn_Sair1_Click(object sender, EventArgs e)
         {
-
+ 
+            this.Close();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

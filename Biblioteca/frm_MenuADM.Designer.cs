@@ -96,8 +96,9 @@
             this.btn_Sair2.Name = "btn_Sair2";
             this.btn_Sair2.Size = new System.Drawing.Size(109, 62);
             this.btn_Sair2.TabIndex = 18;
-            this.btn_Sair2.Text = "Sair";
+            this.btn_Sair2.Text = "Voltar";
             this.btn_Sair2.UseVisualStyleBackColor = false;
+            this.btn_Sair2.Click += new System.EventHandler(this.btn_Sair2_Click);
             // 
             // pictureBox1
             // 

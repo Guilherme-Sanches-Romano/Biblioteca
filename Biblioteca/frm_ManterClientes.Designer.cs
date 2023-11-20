@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "01",
             "Eduardo da Costa",
             "42312354322",
@@ -63,8 +63,9 @@
             this.btn_Sair1.Name = "btn_Sair1";
             this.btn_Sair1.Size = new System.Drawing.Size(109, 62);
             this.btn_Sair1.TabIndex = 23;
-            this.btn_Sair1.Text = "Sair";
+            this.btn_Sair1.Text = "Voltar";
             this.btn_Sair1.UseVisualStyleBackColor = false;
+            this.btn_Sair1.Click += new System.EventHandler(this.btn_Sair1_Click);
             // 
             // lbl_SubBibliSofi1
             // 
@@ -130,7 +131,7 @@
             this.lv_clientes.FullRowSelect = true;
             this.lv_clientes.HideSelection = false;
             this.lv_clientes.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem4});
             this.lv_clientes.Location = new System.Drawing.Point(12, 76);
             this.lv_clientes.MultiSelect = false;
             this.lv_clientes.Name = "lv_clientes";
